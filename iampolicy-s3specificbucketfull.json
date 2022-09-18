@@ -8,10 +8,10 @@
                 "s3:*"
             ],
             "Resource": [
-                "arn:aws:s3:::cord-awslogs",
-                "arn:aws:s3:::cord-awslogs/*",
-                "arn:aws:s3:::cordiaacom-bkp",
-                "arn:aws:s3:::cordiaacom-bkp/*",
+                "arn:aws:s3:::test-awslogs",
+                "arn:aws:s3:::test-awslogs/*",
+                "arn:aws:s3:::testcom-bkp",
+                "arn:aws:s3:::testcom-bkp/*",
                 "arn:aws:s3:::repli-bkt-test",
                 "arn:aws:s3:::repli-bkt-test/*",
                 "arn:aws:s3:::test-s3batch-source3",
