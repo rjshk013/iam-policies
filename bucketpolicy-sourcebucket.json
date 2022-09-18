@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowCopy",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::446440614855:root"
+            },
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::test-s3batch-source3/*",
+                "arn:aws:s3:::test-s3batch-source3"
+            ]
+        }
+    ]
+}
