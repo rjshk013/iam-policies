@@ -5,7 +5,7 @@
             "Sid": "AllowCopy",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::446440614855:root"
+                "AWS": "arn:aws:iam::123456789:root"
             },
             "Action": [
                 "s3:ListBucket",
